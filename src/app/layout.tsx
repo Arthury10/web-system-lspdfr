@@ -1,6 +1,11 @@
+"use client"
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { Header } from '@/components/Header'
+import { Sidebar } from '@/components/Sidebar'
+import { Footer } from '@/components/Footer'
+import { useEffect } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,9 +19,21 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
+  const isLogged = false
+
+  // useEffect(() => {
+  //   if (!isLogged) {
+  //     window.location.href = "/auth"
+  //   }
+  // }, [])
+
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   )
 }
