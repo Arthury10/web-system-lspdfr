@@ -1,7 +1,5 @@
 "use client"
-import { Header } from '@/components/Header'
 import { Sidebar } from '@/components/Sidebar'
-import { Footer } from '@/components/Footer'
 
 export default function RootLayout({
   children,
@@ -14,7 +12,6 @@ export default function RootLayout({
       <Sidebar>
         {children}
       </Sidebar>
-      <Footer />
     </div>
   )
 }

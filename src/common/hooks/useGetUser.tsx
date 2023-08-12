@@ -9,7 +9,7 @@ export const useGetUser = () => {
 
 
   useEffect(() => {
-    axios.get("http://localhost:9000//users/").then((response) => {
+    axios.get("http://localhost:9000/user/").then((response) => {
       setUser(response.data)
     }).catch((error) => {
       console.log(error)
@@ -17,13 +17,13 @@ export const useGetUser = () => {
   }, [])
 
   const handleRequestUser = () => {
-    axios.get("http://localhost:9000//users/").then((response) => {
+    axios.get("http://localhost:9000/user/").then((response) => {
       setUser(response.data)
     }).catch((error) => {
       console.log(error)
     })
   }
-  
+
 
   return {
     user,

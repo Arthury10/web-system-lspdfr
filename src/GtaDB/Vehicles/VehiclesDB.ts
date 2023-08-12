@@ -114,5 +114,100 @@ export const VehiclesDB = [
     id: 23,
     name: "Minivan2",
     image: "/Vehicle/Minivan2.png",
+  },
+  {
+    id: 24,
+    name: "Sentinel",
+    image: "/Vehicle/Sentinel.png",
+  },
+  {
+    id: 25,
+    name: "Sentinel2",
+    image: "/Vehicle/Sentinel2.png",
+  },
+  {
+    id: 26,
+    name: "Huntley",
+    image: "/Vehicle/Huntley.png",
+  },
+  {
+    id: 27,
+    name: "Washington",
+    image: "/Vehicle/Washington.png",
+  },
+  {
+    id: 28,
+    name: "Feltzer2",
+    image: "/Vehicle/Feltzer2.png",
+  },
+  {
+    id: 29,
+    name: "CogCabrio",
+    image: "/Vehicle/CogCabrio.png",
+  },
+  {
+    id: 30,
+    name: "Exemplar",
+    image: "/Vehicle/Exemplar.png",
+  },
+  {
+    id: 31,
+    name: "F620",
+    image: "/Vehicle/F620.png",
+  },
+  {
+    id: 32,
+    name: "Felon",
+    image: "/Vehicle/Felon.png",
+  },
+  {
+    id: 33,
+    name: "Felon2",
+    image: "/Vehicle/Felon2.png",
+  },
+  {
+    id: 34,
+    name: "Jackal",
+    image: "/Vehicle/Jackal.png",
+  },
+  {
+    id: 35,
+    name: "Oracle",
+    image: "/Vehicle/Oracle.png",
+  },
+  {
+    id: 36,
+    name: "Oracle2",
+    image: "/Vehicle/Oracle2.png",
+  },
+  {
+    id: 37,
+    name: "Windsor",
+    image: "/Vehicle/Windsor.png",
+  },
+  {
+    id: 38,
+    name: "Windsor2",
+    image: "/Vehicle/Windsor2.png",
+  },
+  {
+    id: 39,
+    name: "Zhaba",
+    image: "/Vehicle/Zhaba.png",
+  },
+  {
+    id: 40,
+    name: "Bagger",
+    image: "/Vehicle/Bagger.png",
+  },
+  {
+    id: 41,
+    name: "Sabregt",
+    image: "/Vehicle/Sabregt.png",
+  },
+  {
+    id: 42,
+    name: "Sabregt2",
+    image: "/Vehicle/Sabregt2.png",
   }
 ]
